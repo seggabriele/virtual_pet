@@ -38,7 +38,6 @@ def show_stats(pet):
     print("-------------------------")
 
 
-#__________ Main Cycle __________
 while True:
     
     if pet.is_gone():
