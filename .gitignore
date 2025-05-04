@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode, PyCharm, IDE files
+.vscode/
+.idea/
+
+# Env files
+.env
+*.env
+
+# Windows system folders/files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.ntuser*
+AppData/
+Documents/
+Downloads/
+OneDrive*/
+Music/
+Pictures/
+Videos/
+Saved Games/
+Contacts/
+Favorites/
+Links/
+Searches/
+Templates/
+PrintHood/
+NetHood/
+Recent/
+SendTo/
+Start Menu/
+Local Settings/
+Cookies/
+Application Data/
+
+# Logs
+*.log
+
+# Backup/Temp files
+*.bak
+*.tmp
+*.swp
