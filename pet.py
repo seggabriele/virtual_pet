@@ -62,12 +62,10 @@ class Pet(ABC):
         with open(filename, "w") as f:
             json.dump(pet_data, f)
 
-#__________ Abstract Method __________
     @abstractmethod
     def speak(self) -> str:
         pass
 
-#__________ Properties (Encapsulation) __________
     @property
     def name(self):
         return self._name
@@ -88,7 +86,6 @@ class Pet(ABC):
     def energy(self):
         return self._energy
     
-#__________ Actions __________
     def feed(self):
         if self._has_run_away:
             return "You can no longer feet your pet. It has run away."
@@ -130,7 +127,6 @@ class Pet(ABC):
             self._update_last_interaction()
             return "Your pet is sleeping"
 
-#__________ Status __________
     def is_gone(self):
         if self._has_run_away:
             return True
@@ -153,7 +149,7 @@ class Pet(ABC):
         else:
             return "Totally neglected!"
 
-#__________ Classes __________
+
 class Cat(Pet):
     def __init__(self, name: str):
         super().__init__(name)
