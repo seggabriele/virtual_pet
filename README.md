@@ -9,7 +9,7 @@ Topic: Virtual Pet (Tamagotchi-style game) with graphical interface using Pygame
 
 ## 1. Introduction
 
-This project is a virtual pet simulator where the user can adopt a pet (cat or dog), name it, and take care of its' well-being through a graphical interface. The game is developed in **Python**, applying **OOP principles**, with animations and a save/load system using **JSON files**.
+This project is a virtual pet simulator where the user can adopt a pet (cat or dog), name it, and take care of its' well-being through a graphical interface. It also has automatic need decay every 5 minutes while the game is running. The game is developed in **Python**, applying **OOP principles**, with animations and a save/load system using **JSON files**.
 
 ### How to Run the Program
 
@@ -77,12 +77,13 @@ This project is a virtual pet simulator where the user can adopt a pet (cat or d
 
 ## 4. Conclusions
 
-This project allowed practice the application of all core OOP principles, test-driven development, and basic design patterns.  
+This project allowed to practice the application of all core OOP principles, test-driven development, and basic design patterns.  
 Future improvements may include:
-- More pet types with unique behaviors, moods
-- Sound effects and animations per action
+- More pet types with unique behaviors, moods, personalities
+- Sound effects and animations after an action is picked
 - Age system, illness, and advanced care needs
 - Online save system or cloud sync using APIs
+- Auto save feature
 
 ---
 
@@ -109,4 +110,4 @@ README.md          # This report file
 ## For the Lecturer
 
 This OOP coursework is available on GitHub:  
-👉 https://github.com/seggabriele/virtual_pet
+https://github.com/seggabriele/virtual_pet
